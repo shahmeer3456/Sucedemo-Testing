@@ -1,0 +1,22 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "codeceptjs run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.6.0",
+    "assert": "^2.1.0",
+    "axios": "^1.6.8",
+    "codeceptjs": "^3.6.2"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.7",
+    "playwright": "^1.43.1"
+  }
+}
